@@ -1,0 +1,9 @@
+.search {
+  @apply w-full  #{!important};
+
+  :global {
+    .ant-select-selector {
+      @apply rounded-none border-0 bg-transparent shadow-none #{!important};
+    }
+  }
+}
