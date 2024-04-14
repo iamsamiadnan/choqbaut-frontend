@@ -22,7 +22,7 @@ export default function RootLayout({
         <AntdRegistry>
           <div className="max-w-96 mx-auto">
             <Header />
-            <main>{children}</main>
+            <main className="mx-6">{children}</main>
           </div>
         </AntdRegistry>
       </body>
